@@ -10,6 +10,9 @@
     position: relative;
     padding: 2rem;
     text-align: center;
+
+    /* ADD THIS LINE: Adjust 80px to match the actual height of your top navbar */
+    scroll-margin-top: 80px;
 }
 
 /* Project Filters */
