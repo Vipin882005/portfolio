@@ -18,7 +18,7 @@
     --accent-color: #4895ef; /* Lighter Desaturated Blue */
     --text-color: #333333; /* Dark Gray */
     --text-color-light: #666666; /* Medium Gray */
-    --bg-color: #0a192f;
+    --bg-color: #ffffff; /* White */
     --bg-color-alt: #f9f9f9; /* Light Gray */
     --card-bg: #ffffff; /* White */
     --border-color: #e0e0e0; /* Light Gray */
@@ -45,22 +45,18 @@
 }
 
 /* ======= Dark Theme Variables ======= */
-
 .dark-theme {
-    --primary-color: #4895ef;
-    --primary-color-rgb: 72, 149, 239;
-    --secondary-color: #3f8efc;
-    --accent-color: #5390d9;
-    --text-color: #e0e0e0;
-    --text-color-light: #b0b0b0;
-    
-    /* Updated background colors to match your dark navy color */
-    --bg-color: #0a192f;        /* Main dark navy background */
-    --bg-color-alt: #112240;    /* Slightly lighter navy for alternating sections */
-    --card-bg: #172a45;         /* Navy tone for cards/containers */
-    
-    --border-color: #233554;    /* Subtle dark blue border */
-    --shadow-color: rgba(2, 12, 27, 0.7);
+    --primary-color: #4895ef; /* Lighter Desaturated Blue */
+    --primary-color-rgb: 72, 149, 239; /* RGB for Lighter Desaturated Blue */
+    --secondary-color: #3f8efc; /* Darker Desaturated Blue */
+    --accent-color: #5390d9; /* Even Darker Desaturated Blue */
+    --text-color: #e0e0e0; /* Light Gray */
+    --text-color-light: #b0b0b0; /* Medium-Dark Gray */
+    --bg-color: #1212127a; /* Very Dark Desaturated Blue/Gray */
+    --bg-color-alt: #1e1e1e; /* Darker Gray */
+    --card-bg: #2a2a2a; /* Dark Gray */
+    --border-color: #444444; /* Medium-Dark Gray */
+    --shadow-color: rgba(0, 0, 0, 0.5); /* Darker Shadow */
 }
 
 /* ======= Reset ======= */
